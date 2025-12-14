@@ -35,22 +35,18 @@ Generally, the new system enhances the security and reliability of face recognit
 ## Output
 
 <!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+#### Output1 - output without Blink Count
+<img width="1899" height="1008" alt="Screenshot 2025-12-14 122915" src="https://github.com/user-attachments/assets/2f58d1cc-3e6e-44d4-bab4-f9d4b1fe840f" />
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+#### Output2 - output with Blink Count
+<img width="1919" height="1028" alt="Screenshot 2025-12-14 123013" src="https://github.com/user-attachments/assets/9f49d089-ab70-4fc7-a879-9737cafc1897" />
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
-
-Detection Accuracy: 96.7%
+Detection Accuracy: Blink Count
 Note: These metrics can be customized based on your actual performance evaluations.
 
 
 ## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
-
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+The results of this face liveness detection project demonstrate that a cascade classifier–based approach can effectively identify real human faces in real time while rejecting basic spoofing attempts such as printed photos or screen replays. During testing, the system showed fast and reliable face detection with smooth performance on standard hardware, making it suitable for practical use without expensive resources. By combining face detection with simple liveness cues like eye blinking and facial movement, the solution was able to significantly reduce false acceptances compared to face detection alone. The impact of this project lies in its ability to strengthen biometric security in a simple and cost-effective way. It provides a strong foundation for secure authentication systems in applications such as mobile access control, attendance systems, and identity verification, while also serving as an excellent learning and research platform. Most importantly, the project highlights how even lightweight computer vision techniques can make digital systems safer, more trustworthy, and closer to real-world deployment when designed thoughtfully.
 
 ## Articles published / References
 1.  Singh, A. K., Joshi, P., & Nandi, G. C. (2014). Face recognition with liveness detection using eye and mouth movement. Proceedings of the International Conference on Computer Vision and Pattern Recognition, 1–
